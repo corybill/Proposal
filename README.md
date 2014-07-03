@@ -1,24 +1,33 @@
-# Justine & Corybill's Wedding Website
-## www.justineandcorybill.com
+This module was originally its own project.  I wrote it as a proposal application and used it to propose to my wife.
+I added into this application so relatives could view it if they knew the link.
 
-### How to run
-1. Download code
-2. Open command line tool (git bash) and run 'npm install' from project root.
-2. In command line tool run 'grunt' command from the project root.  This will automatically build everything and run grunt watch.
-3. Start server by running 'nodemon main.js' or 'node main.js'.
-4. Go to https://localhost:3000
+The Fireworks.js library was based off of Kenneth Kufluk's Fireworks.js.  I made quite a few changes but his work
+undoubtedly saved me hours, so thank you Kenneth.  The license of his work is found below.
 
-### Following The code (UI)
-1. public/js/app.js is the starting point.  All UI and Angular code will be compiled into this file using browserfiy in the grunt build.
-2. app.js requires all of the needed modules which can be found in the modules package.
-3. Each angular module will have an index.js file at its root which will be a one stop shop for angular compilation in the module.
-4. Grunt file will compile and minify app.js into the bundle.js.
+/*
+ * fireworks.js - Kenneth Kufluk (http://kenneth.kufluk.com/)
+ * http://js-fireworks.appspot.com/
+ * MIT (X11) Licensed
 
-### Following The Code (Server)
-1. main.js will start up the node server.
-2. All routes will be listened for here and sent to the routes.js for processing in the main module.
-3. Each module can have its own server side code if it needs to.
+ Copyright (c) 2010 Kenneth Kufluk
 
-### Stylus
-1. Stylus files are compiled with grunt into the main.css file at public/css/main.css
-2. Stylus files with names ending with "Media" are explicitly for mobile phones and will capture any screen up to 800px.
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+ *
+ */
