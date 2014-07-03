@@ -1,0 +1,45 @@
+body
+    font-family: MainFont
+    color: main-font-color
+    font-weight: 100
+    margin: 0px
+    overflow-y: scroll
+    overflow-y: -moz-scrollbars-vertical
+    overflow-x: hidden
+
+center-on-screen()
+    margin-left: auto
+    margin-right: auto
+    max-width: 1080px
+    max-height: max-content-height
+
+.navigation
+    clear: both
+    center-on-screen()
+    margin-top: 50px
+    .nav-item
+        font-size: 21px
+        color: secondary-font-color
+        float: left
+        list-style-type: none
+
+    .nav-item
+        a
+            color: secondary-font-color
+            text-decoration: none
+
+    .first-nav-item
+        margin-left: 45px
+    .non-first-nav-item
+        margin-left: 70px
+
+.nav-spacer
+    height: 40px
+
+.main-nav-color.nav-color-changer
+    a
+        color: secondary-font-color
+
+.registry-nav-color.nav-color-changer
+    a
+        color: white
