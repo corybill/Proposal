@@ -23,7 +23,7 @@
   "engine": "node >= 0.10",
   "gitHead": "8327191ef9e4ef9ba2bd77f4cc33b2d20ad1e5a5",
   "readmeFilename": "README.md",
-  "description": "Corybill and Justines Wedding website",
+  "description": "Cory Bill and Justine's Proposal Application",
   "main": "main.js",
   "devDependencies": {},
   "scripts": {
@@ -31,11 +31,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/corybill/Wedding.git"
+    "url": "https://github.com/corybill/Proposal.git"
   },
   "author": "corybill",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/corybill/Wedding/issues"
+    "url": "https://github.com/corybill/Proposal/issues"
   }
 }
